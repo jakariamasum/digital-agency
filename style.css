@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background: #A9A9A9;
+    color: black;
+}
+.items{
+    display: flex;
+
+}
+.item{
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px; 
+    padding: 25px;
+}
+.banner{
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));background-blend-mode: overlay;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    padding: 10px;
+}
+.banner-description{
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+}
+.btn-discover{
+    color: white;
+    background-color: red;
+}
+.btn-hire{
+    color: red;
+}
